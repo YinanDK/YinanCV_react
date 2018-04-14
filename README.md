@@ -1,6 +1,6 @@
 # Joe Faulstick
 
-Hi! I'm Joe.
+Hi! I'm Joe. I am a Full Stack Developer.
 
 ---
 React Template created by [Sophia Ciocca](http://sophiaciocca.com)
