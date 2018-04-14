@@ -114,14 +114,14 @@ class Code extends Component {
             <div className="col-lg-4 col-md-4 col-sm-4">
               <h5>Front-end:</h5>
               <ul>
-                <li>JavaScript (ES6)</li>
-                <li>React</li>
-                <li>Redux</li>
                 <li>HTML5</li>
-                <li>CSS3/Sass</li>
+                <li>CSS3</li>
+                <li>Bootstrap 3/4</li>
+                <li>React</li>
+                <li>Handlebars</li>
+                <li>JavaScript (ES6)</li>
                 <li>jQuery</li>
                 <li>AJAX</li>
-                <li>Material-UI</li>
               </ul>
             </div>
             <div className="col-lg-4 col-md-4 col-sm-4">
@@ -129,8 +129,10 @@ class Code extends Component {
               <ul>
                 <li>Node.js</li>
                 <li>Express</li>
-                <li>SQL/PostgreSQL</li>
+                <li>MySQL</li>
+                <li>MongoDB</li>
                 <li>Sequelize</li>
+                <li>Mongoose</li>
                 <li>Firebase</li>
               </ul>
             </div>
@@ -138,10 +140,13 @@ class Code extends Component {
               <h5>Other:</h5>
               <ul>
                 <li>Git</li>
-                <li>Webpack</li>
+                <li>Perforce</li>
                 <li>JSON</li>
-                <li>Mocha/Chai & Jasmine Testing</li>
-                <li>Agile development</li>
+                <li>Heroku</li>
+                <li>Mocha/Chai Testing</li>
+                <li>Agile Development</li>
+                <li>Hansoft</li>
+                <li>Jira</li>
               </ul>
             </div>
           </div>

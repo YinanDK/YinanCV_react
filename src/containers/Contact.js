@@ -32,10 +32,10 @@ class Contact extends Component {
   render() {
     return (
       <div>
-        <CenteredHeader>Get in touch with me!</CenteredHeader>
+        <CenteredHeader>Get in touch with me at jfaulstick@gmail.com!</CenteredHeader>
 
         <FormDiv>
-          <form action="https://formspree.io/sophiaciocca@gmail.com" method="POST" id="contactform">
+          <form action="https://formspree.io/jfaulstick@gmail.com" method="POST" id="contactform">
             <div>
               <FormLabel>Name:</FormLabel>
               <FormInput type="text" name="name" />
@@ -51,11 +51,7 @@ class Contact extends Component {
             <button type="submit">Submit</button>
           </form>
         </FormDiv>
-
-        <EmailMe>Or, just email me directly at <a href="mailto:sophiaciocca@gmail.com" target="_blank"><strong>sophiaciocca@gmail.com</strong></a>.</EmailMe>
-
-        {/* <hr/> */}
-        {/* <CenteredHeader><PortButton href="https://drive.google.com/file/d/0B-Wn-csD32OpVmUyVXFVa0JJakE/view" target="_blank">Download My Resume</PortButton></CenteredHeader> */}
+        
       </div>
     );
   }
