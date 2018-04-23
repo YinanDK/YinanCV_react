@@ -17,6 +17,12 @@ const CodeThumbnail = styled.img`
   margin: 0 auto;
 `;
 
+const CodeThumbnailMobile = styled.img`
+  // width: 100%;
+  display: block;
+  margin: 0 auto;
+`;
+
 const PortAllText = styled.div`
   width: 90%;
   margin: 0 auto;
@@ -155,141 +161,188 @@ class Code extends Component {
         <div>
           <CenteredHeader>Recent work:</CenteredHeader>
           <PortRow>
-            <a href="https://align.fun/" target="_blank">
-              <CodeThumbnail src={require("../assets/AlignScreenshot.png")} />
+            <a href="https://fierce-oasis-31783.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+              <CodeThumbnail src={require("../assets/quizit2.png")} />
+            </a>
+            <a href="https://fierce-oasis-31783.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+              <CodeThumbnailMobile src={require("../assets/quizit5.png")} />
             </a>
             <PortAllText>
               <PortTitleContainer>
-                <PortTitle>Align</PortTitle>
+                <PortTitle>QuizIt!</PortTitle>
                 <PortButtonContainer>
-                  <PortButton href="https://align.fun" target="_blank">
+                  <PortButton href="https://fierce-oasis-31783.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                     Demo
                 </PortButton>
                   <PortButton
-                    href="https://github.com/align-capstone/align"
-                    target="_blank"
+                    href="https://github.com/Binary-Squad/QuizIt"
+                    target="_blank" rel="noopener noreferrer"
                   >
                     Code
                 </PortButton>
                 </PortButtonContainer>
               </PortTitleContainer>
               <PortDescription>
-                My capstone project from the Grace Hopper Program, Align is a web
-                application for setting and managing long-term goals with a
-                beautiful and intuitive interface. It includes image uploading
-                capability, resource cards to save helpful links, a rich text
-                editor, and live updating using Firebase WebSocket integration.
-            </PortDescription>
+                QuizIt! was my final project for the Berkeley Coding Camp class. QuizIt! is a social trivia game where players can join 
+                in and compete against one another in a social environment. QuizIt! Is powered by Open Trivia Database’s library of 
+                community provided questions and includes a live chat room for in-game communication among the players. The game loop and state machine 
+                was designed using a server / client model with Socket.io used as our communication protocal.
+              </PortDescription>
               <PortDescription>
-                I worked with two incredibly smart teammates to create Align in
-              three weeks. You can read about our process building it{" "}
-                <a href="https://medium.com/ladies-storm-hackathons/how-we-built-our-first-full-stack-javascript-web-app-in-three-weeks-8a4668dbd67c">
-                  here
-              </a>.
-            </PortDescription>
+                I worked with three incredibly smart teammates to create QuizIt! for the web browser and mobile in two and a half weeks. You can see our work within 
+                the project's Github repository by clicking on the 'Code' button above'.
+              </PortDescription>
+              
               <UsedList>
+                <UsedItem>Node.js</UsedItem>
+                <UsedItem>Express.js</UsedItem>
                 <UsedItem>React.js</UsedItem>
+                <UsedItem>MongoDB</UsedItem>
+                <UsedItem>Bootstrap 4</UsedItem>
+                <UsedItem>Socket.io</UsedItem>
+                <UsedItem>Passport.js</UsedItem>
+              </UsedList>
+            </PortAllText>
+          </PortRow>
+
+          <hr />
+          
+          <PortRow>
+            <a href="https://fathomless-harbor-45708.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+              <CodeThumbnail src={require("../assets/scrape-da-news.png")} />
+            </a>
+            <PortAllText>
+              <PortTitleContainer>
+                <PortTitle>Scrape Da News: Boston.com News Edition</PortTitle>
+                <PortButtonContainer>
+                  <PortButton href="https://fathomless-harbor-45708.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                    Demo
+                </PortButton>
+                  <PortButton
+                    href="https://github.com/jfaulstick/HW-13---ScrapeDaNews"
+                    target="_blank" rel="noopener noreferrer"
+                  >
+                    Code
+                </PortButton>
+                </PortButtonContainer>
+              </PortTitleContainer>
+              <PortDescription>
+                Scrape Da News: Boston.com News Edition was a homework project. The web application is designed to scrape Boston.com's news section and then save
+                any new article links and titles to MongoDB. Articles can be saved and commented on later.
+               </PortDescription>
+              
+              <UsedList>
+                <UsedItem>Node.js</UsedItem>
+                <UsedItem>Express.js</UsedItem>
+                <UsedItem>jQuery</UsedItem>
+                <UsedItem>MongoDB</UsedItem>
+                <UsedItem>Bootstrap 4</UsedItem>
+              </UsedList>
+            </PortAllText>
+          </PortRow>
+
+          <hr />
+          
+          <PortRow>
+            <a href="http://lit-coast-86942.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+              <CodeThumbnail src={require("../assets/code-cats1.png")} />
+            </a>
+            <a href="http://lit-coast-86942.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+              <CodeThumbnail src={require("../assets/code-cats2.png")} />
+            </a>
+            <PortAllText>
+              <PortTitleContainer>
+                <PortTitle>Code Cats</PortTitle>
+                <PortButtonContainer>
+                  <PortButton href="http://lit-coast-86942.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                    Demo
+                </PortButton>
+                  <PortButton
+                    href="https://github.com/TeamCodeCats/codecatsdotcom"
+                    target="_blank" rel="noopener noreferrer"
+                  >
+                    Code
+                </PortButton>
+                </PortButtonContainer>
+              </PortTitleContainer>
+              <PortDescription>
+                Code Cats was my second team project for the Berkeley Coding Camp class. Our goal in creating Code Cats was to create a
+                social space where our cohort could interact outside of class. The web application includes a 'Facebook-like' timeline with
+                comments and a profile customizer with authentication through Google oAuth.
+               </PortDescription>
+              <UsedList>
+                <UsedItem>Node.js</UsedItem>
+                <UsedItem>Express.js</UsedItem>
+                <UsedItem>jQuery</UsedItem>
+                <UsedItem>MySQL</UsedItem>
+                <UsedItem>Bootstrap 4</UsedItem>
+                <UsedItem>Passport.js</UsedItem>
+              </UsedList>
+            </PortAllText>
+          </PortRow>
+
+          <hr />
+          
+          <PortRow>
+            <a href="https://teamthunderbuddies.github.io/BreadCrumbs/" target="_blank" rel="noopener noreferrer">
+              <CodeThumbnail src={require("../assets/breadcrumbs1.png")} />
+            </a>
+            <PortAllText>
+              <PortTitleContainer>
+                <PortTitle>Breadcrumbs</PortTitle>
+                <PortButtonContainer>
+                  <PortButton href="https://teamthunderbuddies.github.io/BreadCrumbs/" target="_blank" rel="noopener noreferrer">
+                    Demo
+                </PortButton>
+                  <PortButton
+                    href="https://github.com/TeamThunderBuddies/BreadCrumbs"
+                    target="_blank" rel="noopener noreferrer"
+                  >
+                    Code
+                </PortButton>
+                </PortButtonContainer>
+              </PortTitleContainer>
+              <PortDescription>
+                Breadcrumbs was my first class project for the Berkeley Coding Camp class. Breadcrumbs was designed to act as a social
+                game of 'Tag' using Google's Maps and Geolocation APIs. One user is designated as "It" and may leave breadcrumbs at their
+                current location, including with an optional photo. The other users are "Seekers" who attempt to find "It" by zero-ing in
+                on their location using their on screen map. When close enough, both "It" and the "Seeker" receive a prompt that lets them
+                know that "It" has been found.
+               </PortDescription>
+              <UsedList>
+                <UsedItem>Node.js</UsedItem>
+                <UsedItem>Express.js</UsedItem>
+                <UsedItem>jQuery</UsedItem>
                 <UsedItem>Firebase</UsedItem>
-                <UsedItem>Material-UI</UsedItem>
-                <UsedItem>Victory.js</UsedItem>
+                <UsedItem>Bootstrap 4</UsedItem>
+                <UsedItem>Google Maps and Geolocation</UsedItem>
               </UsedList>
             </PortAllText>
           </PortRow>
+
           <hr />
+          
           <PortRow>
-            <a href="https://okcollab.herokuapp.com/" target="_blank">
-              <CodeThumbnail
-                src={require("../assets/OkCollabScreenshot.png")}
-              />
-            </a>
             <PortAllText>
               <PortTitleContainer>
-                <PortTitle>OkCollab</PortTitle>
+                <PortTitle>Other Projects!</PortTitle>
                 <PortButtonContainer>
                   <PortButton
-                    href="https://okcollab.herokuapp.com/"
-                    target="_blank"
-                  >
-                    Demo
-                </PortButton>
-                  <PortButton
-                    href="https://github.com/sophiaciocca/ok-collab"
-                    target="_blank"
+                    href="https://github.com/jfaulstick"
+                    target="_blank" rel="noopener noreferrer"
                   >
                     Code
-                  </PortButton>
+                </PortButton>
                 </PortButtonContainer>
               </PortTitleContainer>
               <PortDescription>
-                For my hackathon project at Grace Hopper, I spent three days
-                building an app I always wished I'd had -- a social network for
-                musicians to find other musicians to collaborate with. It's like
-                OkCupid, except instead of dates it's for finding people to jam
-                with and make tracks. View all users, view each user's profile and
-                information, play their embedded Youtube videos, and see similar
-                users in the sidebar.
-            </PortDescription>
-              <PortDescription>
-                OkCollab is responsive and works on devices of all sizes. You can
-              watch me present it live{" "}
-                <a
-                  href="https://www.youtube.com/watch?v=qyLoInHNjoc"
-                  target="_blank"
-                >
-                  here
-              </a>.
-            </PortDescription>
-              <UsedList>
-                <UsedItem>React.js</UsedItem>
-                <UsedItem>Redux</UsedItem>
-                <UsedItem>PostgreSQL</UsedItem>
-                <UsedItem>CSS</UsedItem>
-                <UsedItem>Node.JS</UsedItem>
-                <UsedItem>Express</UsedItem>
-              </UsedList>
+                Please check out my GitHub profile for other projects that I have worked on. The projects listed above are the ones I've 
+                found most outward facing, though my repository contains all of the homework and mini-project assignments from my class as 
+                well as additional side projects I have wanted to work on.
+               </PortDescription>
             </PortAllText>
           </PortRow>
-          <hr />
-          <PortRow>
-            <a href="https://limitless-leggings.herokuapp.com/" target="_blank">
-              <CodeThumbnail
-                src={require("../assets/LimitlessLeggingsScreenshot.png")}
-              />
-            </a>
-            <PortAllText>
-              <PortTitleContainer>
-                <PortTitle>Limitless Leggings</PortTitle>
-                <PortButtonContainer>
-                  <PortButton
-                    href="https://limitless-leggings.herokuapp.com/"
-                    target="_blank"
-                  >
-                    Demo
-                </PortButton>
-                  <PortButton
-                    href="https://github.com/limitless-leggings/limitless-leggings"
-                    target="_blank"
-                  >
-                    Code
-                  </PortButton>
-                </PortButtonContainer>
-              </PortTitleContainer>
-              <PortDescription>
-                Limitless Leggings is a full-stack e-commerce site built from
-                scratch. It includes products filterable by category; working
-                signup, login, and o-auth capabilities; and a working cart model
-                built in PostgreSQL.
-            </PortDescription>
-              <UsedList>
-                <UsedItem>React.js</UsedItem>
-                <UsedItem>Redux</UsedItem>
-                <UsedItem>PostgreSQL</UsedItem>
-                <UsedItem>CSS</UsedItem>
-                <UsedItem>Node.JS</UsedItem>
-                <UsedItem>Express</UsedItem>
-              </UsedList>
-            </PortAllText>
-          </PortRow>
+
         </div>
       </div>
     );
