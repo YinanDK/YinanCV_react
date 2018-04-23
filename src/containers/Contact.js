@@ -32,7 +32,7 @@ class Contact extends Component {
   render() {
     return (
       <div>
-        <CenteredHeader>Get in touch with me at jfaulstick@gmail.com!</CenteredHeader>
+        <CenteredHeader>Get in touch with me!</CenteredHeader>
 
         <FormDiv>
           <form action="https://formspree.io/jfaulstick@gmail.com" method="POST" id="contactform">
@@ -52,6 +52,8 @@ class Contact extends Component {
           </form>
         </FormDiv>
         
+        <EmailMe>Or just email directly at <a href="mailto:jfaulstick@gmail.com" target="_blank" rel="noopener noreferrer">jfaulstick@gmail.com</a></EmailMe>
+
       </div>
     );
   }
