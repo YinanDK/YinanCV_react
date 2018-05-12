@@ -16,7 +16,7 @@ class Home extends Component {
           <p>
           This website is a place where I can showcase my skills and growing experience. Please take a look around and contact me if you have
           any questions. Thank you for visiting!
-          </p>
+          </p
 
       </div>
     );
