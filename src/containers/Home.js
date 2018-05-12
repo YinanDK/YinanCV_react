@@ -7,7 +7,7 @@ class Home extends Component {
     return (
       <div>
         <CenteredHeader>
-          Hi! I'm Joe. I'm a full stack software developer based in Raleigh, North Carolina.</CenteredHeader> 
+          Hi! I'm Yinan. I'm a front-end developer from Beijing, China.</CenteredHeader>
           
           <p>After working as a producer in the video game industry for 15 years, I decided to to make a career transition into full stack
           development so I could follow my dream and return to my computer science roots. At the same time, my wife, son, and I uprooted
